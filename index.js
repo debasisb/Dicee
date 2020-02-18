@@ -22,7 +22,7 @@ var randomImageSource3 = "images/dice" + randomNumber3 + ".png";
 
 document.querySelectorAll("img")[2].setAttribute("src", randomImageSource3);
 
-//If player 1 wins
+//If the sum of all three dice is 7, then all 3 are winners
 if (randomNumber1 + randomNumber2 + randomNumber3 === 7)  {
     document.querySelector("h1").innerHTML = "🚩 All Three are Super Winners!";
 }
